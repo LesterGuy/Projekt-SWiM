@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleMain"
+        android:layout_width="fill_parent"
+        android:layout_height="162dp"
+        android:layout_marginTop="115dp"
+        android:gravity="center_horizontal"
+        android:layoutDirection="locale"
+        android:text="Projekt SWiM"
+        android:textAlignment="center"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btnCon"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:text="POŁĄCZ" />
+
+    <Button
+        android:id="@+id/btnDis"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:text="Rozłącz" />
+
+    <Button
+        android:id="@+id/btnStreer"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:text="Sterowanie" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
